@@ -18,5 +18,7 @@ even_odd:even_odd.c
 	gcc even_odd.c -pthread -o even_odd
 cond_even_odd:cond_even_odd.c
 	gcc cond_even_odd.c -pthread -o cond_even
-clean:
-	rm *.o
+pid:pid.c
+	gcc pid.c -o pid
+swap_files:swap_files.c
+	gcc swap_files.c -o swap_file
